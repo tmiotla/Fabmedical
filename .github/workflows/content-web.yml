@@ -49,7 +49,7 @@ jobs:
          tags: |
            ${{ env.containerRegistry }}/${{ env.imageRepository }}:${{ env.tag }}
            ${{ env.containerRegistry }}/${{ env.imageRepository }}:latest
-  name: content-web
+   name: content-web
 
 # This workflow is triggered on push to the 'content-web' directory of the main branch of the repository
 on:
