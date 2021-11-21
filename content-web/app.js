@@ -8,7 +8,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'dist/content-web')));
 
 const appInsights = require("applicationinsights");
-appInsights.setup("[YOUR APPINSIGHTS KEY]");
+appInsights.setup("49386fd5-8543-4fa3-9904-0c9dce096517");
 appInsights.start();
 
 const contentApiUrl = process.env.CONTENT_API_URL || "http://localhost:3001";
